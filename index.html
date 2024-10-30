@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive GRID</title>
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/responsive-grid.css">
+  <script defer src="assets/main.js" defer></script>
+</head>
+
+<body>
+  <header></header>
+  <aside>
+    <a href="#ciencia">Fotos do Ciência</a>
+    <a href="#naquim">Fotos do Naquim</a>
+    <a href="#daijin">Fotos do Daijin</a>
+  </aside>
+  <main>
+    <h2>Fotos do Ciência</h2>
+    <a name="ciencia"></a>
+    <div class="gallery" data-folder="ciencia" data-total="26"></div>
+
+    <h2>Fotos do Naquim</h2>
+    <a name="naquim"></a>
+    <div class="gallery" data-folder="nanquim" data-total="9"></div>
+
+    <h2>Fotos do Daijin</h2>
+    <a name="daijin"></a>
+    <div class="gallery" data-folder="cazo" data-total="9"></div>
+
+    <h2>Mix de Gatos na sua Cara</h2>
+    <a name="daijin"></a>
+    <div class="gallery" data-folder="mix" data-total="31"></div>
+  </main>
+  <footer></footer>
+
+  <dialog class="gallery-image-modal">
+    <h1>Oi flor do dia!</h1>
+    <button class="bt-close">Fechar</button>
+  </dialog>
+</body>
+
+</html>
